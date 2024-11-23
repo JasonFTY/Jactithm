@@ -1,0 +1,51 @@
+@font-face{
+    font-family: '思源黑体H';
+    src: url('./fonts/思源黑体H.otf');	
+}
+@font-face{
+    font-family: '思源黑体R';
+    src: url('./fonts/思源黑体R.otf');	
+}
+@font-face{
+    font-family: '思源黑体L';
+    src: url('./fonts/思源黑体L.otf');	
+}
+@font-face{
+    font-family: 'impact';
+    src: url('./fonts/impact.ttf');	
+}
+
+
+h1 {
+    font-family: "思源黑体H";
+    text-align: center;
+}
+h2 {
+    font-family: "思源黑体R";
+}
+h3 {
+    font-family: "思源黑体R";
+}
+h4 {
+    font-family: "思源黑体R";
+}
+h5 {
+    font-family: "思源黑体R";
+}
+h6 {
+    font-family: "思源黑体R";
+}
+
+#header{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#horizon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#maintext{
+    box-shadow: 10px 10px 5px #9f9f9f;
+}
