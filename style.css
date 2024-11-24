@@ -35,6 +35,9 @@ h5 {
 h6 {
     font-family: "思源黑体R";
 }
+p {
+    font-family: "思源黑体L";
+}
 
 #header{
     display: flex;
@@ -46,6 +49,30 @@ h6 {
     justify-content: flex-start;
 }
 
+#mainarea{
+    position: relative;
+}
+
+#backgroundimage{
+    position: absolute;
+    z-index: 1;
+}
+
 #maintext{
     box-shadow: 10px 10px 5px #9f9f9f;
+    position: absolute;
+    z-index: 3;
+    left: calc((100% - 800px) / 2);
+    top: 200;
+}
+
+#charcter{
+    position: absolute;
+    z-index: 2;
+    left: calc((100% - 178px)/2 - 300px);
+    top: 20;
+}
+
+#block1{
+    width: calc(100% - 600px)
 }
